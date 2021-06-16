@@ -30,7 +30,7 @@ function startTimer(){
 
 
     if(tens>9){
-        appendTens.textContent = tens;
+        appendTens.textContent = tens;        
     }
 
     if(tens>99){
@@ -43,7 +43,7 @@ function startTimer(){
           appendSecs.textContent = "0" + secs;
         }
     }
-  
+  tens++;
 }
 
 function resetTimer(){
